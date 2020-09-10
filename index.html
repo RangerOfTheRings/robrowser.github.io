@@ -7,9 +7,9 @@ function Number() {
 const generateRandomNumber = (min, max) =>  {
 return Math.floor(Math.random() * (max - min) + min);
   };
-
-document.write(generateRandomNumber(0,5));
-
+  
+ var content = generateRandomNumber(0,5);
+ document.getElementsByTagName('body')[0].innerHTML = content; 
 
 setTimeout(Number, 1000);
 
