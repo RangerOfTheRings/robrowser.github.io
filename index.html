@@ -1,1 +1,25 @@
-testing 123 testing 123
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+function Number() {
+
+const generateRandomNumber = (min, max) =>  {
+return Math.floor(Math.random() * (max - min) + min);
+  };
+
+document.write(generateRandomNumber(0,5));
+
+
+setTimeout(Number, 1000);
+
+}
+
+Number();
+
+</script>
+
+</body>
+</html>
